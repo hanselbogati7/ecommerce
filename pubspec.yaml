@@ -1,0 +1,23 @@
+name: myshop
+description: MyShop - a mini e-commerce Flutter application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  carousel_slider: ^5.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  # For local images, create assets/images/ and uncomment:
+  # assets:
+  #   - assets/images/
